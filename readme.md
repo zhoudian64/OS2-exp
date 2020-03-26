@@ -2,4 +2,10 @@
 
 code from OS2 taught by Liu
 
-sender.c
+
+推荐阅读顺序
+
+
+- sender.c
+- receiver.c
+- receiver_with_dup.c
