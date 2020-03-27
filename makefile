@@ -1,8 +1,8 @@
 all: exp1 exp2 link_exp mmap_exp io_exp mount_exp
-	"all compiled."
+	echo "all compiled."
 
 exp2: locker check_locker
-	"locker check_locker compiled."
+	echo "locker check_locker compiled."
 	
 locker: locker.c
 	cc locker.c -o locker
@@ -11,7 +11,7 @@ check_locker: lock_checker.c
 	cc lock_checker.c -o lock_checker
 
 exp1: sender receiver
-	"sender receiver compiled."
+	echo "sender receiver compiled."
 
 sender: sender.c
 	cc sender.c -o sender

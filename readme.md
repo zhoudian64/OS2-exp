@@ -20,6 +20,7 @@ make
 - receiver.c
 - receiver_with_dup.c
 - io.c
+- dir.c
 
 - locker.c
 

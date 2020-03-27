@@ -12,7 +12,6 @@ int main() {
 		flock(fd, LOCK_EX);
 		printf("file locked.\n");
 		printf("i = %d\n", i);
-		sleep(1);
 		printf("Trying to unlock file.\n");
 		flock(fd, LOCK_UN);
 		printf("file unlocked.\n");
