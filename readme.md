@@ -16,6 +16,7 @@ Target: x86_64-pc-linux-gnu
 - sender.c
 - receiver.c
 - receiver_with_dup.c
+- io.c
 
 - locker.c
 - locker_checker.c
@@ -24,3 +25,5 @@ Target: x86_64-pc-linux-gnu
 
 - link_example.c
 - unlink_example.c
+
+- mount_example.c
