@@ -7,6 +7,8 @@ code from OS2 taught by Liu
 ``` shell
 # clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
 # Target: x86_64-pc-linux-gnu
+# GNU Make 4.1
+# and run 
 make 
 ```
 
@@ -20,7 +22,6 @@ make
 - io.c
 
 - locker.c
-- locker_checker.c
 
 - mmap_example.c
 
