@@ -5,8 +5,9 @@ code from OS2 taught by Liu
 
 推荐环境
 ``` shell
-clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
-Target: x86_64-pc-linux-gnu
+# clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
+# Target: x86_64-pc-linux-gnu
+make 
 ```
 
 
@@ -27,3 +28,5 @@ Target: x86_64-pc-linux-gnu
 - unlink_example.c
 
 - mount_example.c
+
+- makefile
