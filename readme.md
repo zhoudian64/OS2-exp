@@ -3,6 +3,13 @@
 code from OS2 taught by Liu
 
 
+推荐环境
+``` shell
+clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
+Target: x86_64-pc-linux-gnu
+```
+
+
 推荐阅读顺序
 
 
@@ -14,3 +21,6 @@ code from OS2 taught by Liu
 - locker_checker.c
 
 - mmap_example.c
+
+- link_example.c
+- unlink_example.c
